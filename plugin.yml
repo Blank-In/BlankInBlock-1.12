@@ -1,0 +1,27 @@
+main: com.gmail.ksw26141.BlankInBlock
+name: BlankInBlock
+version: 2.20200603
+author: Blank_In
+website: https://blog.naver.com/ksw87581
+prefix: BlankInBlock
+api-version: 1.12
+commands:
+  blockchange:
+    description: BlankInBlock 블럭리젠 모드 변경 명령어.
+    permission: BlankInBlock.op.blockchange
+    permission-message: 블럭리젠 모드 변경 명령어 입니다.
+    usage: /<command>
+    
+  blocktime:
+    description: BlankInBlock 블럭리젠 쿨타임 명령어.
+    permission: BlankInBlock.op.blocktime
+    permission-message: 블럭리젠 쿨타임 명령어입니다.
+    usage: /<command> <IntegerNumber>
+    
+permissions:
+  BlankInBlock.op.*:
+    description: 오피 전용 명령어 모음
+    default: op
+    children:
+      BlankInBlock.op.blockchange:true
+      BlankInBlock.op.blocktime:true
