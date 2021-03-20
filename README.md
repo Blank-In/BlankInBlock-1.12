@@ -1,5 +1,6 @@
 # MinecraftPlugins
 BlankInBlock 사용설명서
+
 	관리자 명령어
 		blockchange : 명령어 입력시 활성화 한번 더 입력시 비활성화
 			명령어가 활성화 된 상태에서 블럭 좌클릭시 리젠블럭 목록에 해당 블럭 추가
